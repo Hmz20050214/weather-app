@@ -1,0 +1,31 @@
+// 常用城市英文名到中国天气网城市代码映射（可扩展）
+// 这里只列举部分，实际可用完整城市代码表
+export const cityNameToCode = {
+  beijing: "101010100",
+  shanghai: "101020100",
+  guangzhou: "101280101",
+  shenzhen: "101280601",
+  chengdu: "101270101",
+  chongqing: "101040100",
+  tianjin: "101030100",
+  wuhan: "101200101",
+  hangzhou: "101210101",
+  nanjing: "101190101",
+  xian: "101110101",
+  changsha: "101250101",
+  suzhou: "101190401",
+  qingdao: "101120201",
+  dalian: "101070201",
+  shenyang: "101070101",
+  harbin: "101050101",
+  jinan: "101120101",
+  fuzhou: "101230101",
+  xiamen: "101230201",
+  kunming: "101290101",
+  haikou: "101310101",
+  lhasa: "101140101",
+  urumqi: "101130101",
+  hongkong: "101320101",
+  macau: "101330101",
+  // ... 可补充完整中国天气网城市代码表
+};
